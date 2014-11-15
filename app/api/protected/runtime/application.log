@@ -1,0 +1,54 @@
+2014/11/14 21:55:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "read".' in /home/adminuser/NetBeansProject/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/adminuser/NetBeansProject/yii/framework/web/CController.php(270): CController->missingAction('read')
+#1 /home/adminuser/NetBeansProject/yii/framework/web/CWebApplication.php(282): CController->run('read')
+#2 /home/adminuser/NetBeansProject/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('site/read')
+#3 /home/adminuser/NetBeansProject/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /work/NetBeansProjects/etrip/app/api/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/site/test
+---
+2014/11/14 22:28:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in /home/adminuser/NetBeansProject/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/adminuser/NetBeansProject/yii/framework/web/CController.php(270): CController->missingAction('create')
+#1 /home/adminuser/NetBeansProject/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#2 /home/adminuser/NetBeansProject/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('test/create')
+#3 /home/adminuser/NetBeansProject/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /work/NetBeansProjects/etrip/app/api/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test
+HTTP_REFERER=http://localhost:9000/
+---
+2014/11/14 22:28:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in /home/adminuser/NetBeansProject/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/adminuser/NetBeansProject/yii/framework/web/CController.php(270): CController->missingAction('create')
+#1 /home/adminuser/NetBeansProject/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#2 /home/adminuser/NetBeansProject/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('test/create')
+#3 /home/adminuser/NetBeansProject/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /work/NetBeansProjects/etrip/app/api/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test
+HTTP_REFERER=http://localhost:9000/
+---
+2014/11/14 22:30:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in /home/adminuser/NetBeansProject/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/adminuser/NetBeansProject/yii/framework/web/CController.php(270): CController->missingAction('create')
+#1 /home/adminuser/NetBeansProject/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#2 /home/adminuser/NetBeansProject/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('test/create')
+#3 /home/adminuser/NetBeansProject/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /work/NetBeansProjects/etrip/app/api/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test
+HTTP_REFERER=http://localhost:9000/
+---
+2014/11/14 22:30:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "create".' in /home/adminuser/NetBeansProject/yii/framework/web/CController.php:483
+Stack trace:
+#0 /home/adminuser/NetBeansProject/yii/framework/web/CController.php(270): CController->missingAction('create')
+#1 /home/adminuser/NetBeansProject/yii/framework/web/CWebApplication.php(282): CController->run('create')
+#2 /home/adminuser/NetBeansProject/yii/framework/web/CWebApplication.php(141): CWebApplication->runController('test/create')
+#3 /home/adminuser/NetBeansProject/yii/framework/base/CApplication.php(180): CWebApplication->processRequest()
+#4 /work/NetBeansProjects/etrip/app/api/index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/test
+HTTP_REFERER=http://localhost:9000/
+---
